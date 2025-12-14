@@ -19,8 +19,21 @@ button{
 
 #buttonsContainer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
 
 }
+#playBtnsContainer{
+    display: flex;
+
+}
+#restartBtnContainer{
+    display: flex;
+
+}
+
 
 #main{
     display: flex;
