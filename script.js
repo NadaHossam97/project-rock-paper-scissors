@@ -92,26 +92,3 @@ restart.addEventListener("click",restartBtn)
 paper.addEventListener("click",btnPaper)
 rock.addEventListener("click",btnRock)
 scissors.addEventListener("click",btnScissors)
-
-if(HumanScore == 5 || computerScore == 5){
-    
-    msg.innerHTML = `game over <br>computer Score: ${computerScore} <br>human score: ${HumanScore}`
-    paper.disabled = true;
-    rock.disabled  = true;
-    scissors.disabled = true;
-}
-/*
-while(HumanScore <5 && computerScore <5){
-    playRound()
-}
-
-
-if(computerScore === 5){
-     alert(`you lose sorrry hahaha \ncomputer Score: ${computerScore} \nhuman score: ${HumanScore}`)
-}else{
-
-     alert(`congratulation you won   \ncomputer Score: ${computerScore} \nhuman score: ${HumanScore}`)
-}
-
-
-*/
